@@ -11,7 +11,7 @@ How to use this image
 #### Launch the image
 
 ``` bash
-$ docker run -d -P -p 4444:4444 --name appium-emulator totaldesigner/appium-emulator
+$ docker run -d -p 4723:4723 --name appium-emulator totaldesigner/appium-emulator
 ```
 
 #### Get Appium server ip and port
