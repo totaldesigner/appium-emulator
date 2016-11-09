@@ -22,7 +22,7 @@ You can acquire the port that the Appium server is exposed to by running:
 #### Run Appium tests
 
 Execute your Appium tests on the remote server *192.168.99.100:49412*. The test will be executed in a Nexus 5 emulator
-with Android 6.0 (API 23).
+with Android 4.4 (API 19).
 
 You can tail Appium server logs with the following docker command:
 
