@@ -12,7 +12,7 @@ RUN echo y | android update sdk --all --force --no-ui --filter ${ANDROID_COMPONE
 # Create Android Emulator
 #=========================
 RUN android create avd --force --name android-$AVD_VERSION --target android-$AVD_VERSION \
-  --device "Nexus S" --abi armeabi-v7a --skin WVGA800
+  --device "Nexus 5" --abi armeabi-v7a --skin WVGA800
 
 #============================================
 # Scripts to run Appium and Android emulator
