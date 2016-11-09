@@ -1,4 +1,4 @@
-Docker Appium
+# Docker Appium
 
 Docker images for running Appium tests on Android devices or emulators.
 
