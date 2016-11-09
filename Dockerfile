@@ -4,7 +4,7 @@ MAINTAINER totaldesigner <totaldesigner@gmail.com>
 #===========================
 # Android SDK Manager (API)
 #===========================
-ENV AVD_VERSION 23
+ENV AVD_VERSION 19
 ENV ANDROID_COMPONENTS android-$AVD_VERSION,sys-img-armeabi-v7a-android-$AVD_VERSION
 RUN echo y | android update sdk --all --force --no-ui --filter ${ANDROID_COMPONENTS}
 
